@@ -23,6 +23,9 @@ Tiffinwala is a web application designed to streamline the process of ordering a
 - **Delivery Tracking**: Real-time tracking of meal delivery status.
 - **Rating and Reviews**: Customers can rate meals and provide feedback.
 
+
+
+
 ## Installation
 
 To get a local copy up and running follow these simple steps:
@@ -38,7 +41,29 @@ To get a local copy up and running follow these simple steps:
 
 ### Installation Steps
 
-1. **Clone the repo**
-   ```sh
+1. **Clone the repo**: Clone the repository by running the command:
    git clone https://github.com/SanyamBinayake/tiffinwala.git
-            
+
+
+2. **Navigate to the project directory**: Change to the project directory with:
+  
+
+3. **Set up XAMPP**:
+   - Download and install [XAMPP](https://www.apachefriends.org/index.html).
+   - Start the Apache and MySQL modules from the XAMPP control panel.
+
+4. **Create the Database**:
+   - Open phpMyAdmin by navigating to `http://localhost/phpmyadmin/`.
+   - Create a new database named `tiffinwala`.
+   - Import the provided SQL file (`tiffinwala.sql`) into the `tiffinwala` database.
+
+5. **Configure the Project**:
+   - Open the project directory and locate the configuration file (e.g., `config.php`).
+   - Set the database connection parameters (`hostname`, `username`, `password`, `dbname`) in the configuration file.
+
+6. **Launch the Application**:
+   - Place the project files in the `htdocs` directory of your XAMPP installation.
+   - Open your web browser and navigate to `http://localhost/tiffinwala`.
+
+
+This text block provides a step-by-step guide for installing the Tiffinwala project in one cohesive section.
